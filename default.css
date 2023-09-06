@@ -1,0 +1,15 @@
+:root {
+    --link-blue: rgb(57, 120, 245);
+    --header-color: rgb(0, 0, 0);
+    --para-color: rgb(106, 118, 133);
+    --link-alt: rgb(89, 197, 168);
+    --circle-background: rgb(237, 242, 254);
+    --text-large: 2.5rem;
+    --text-medium: 1.25rem;
+    --text-small: 0.625rem;
+}
+
+* {
+    margin: none;
+    padding: 0;
+}
