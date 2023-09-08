@@ -1,5 +1,5 @@
 :root {
-  --shape-right: rgb(175, 176, 178);
+  --shape-right: rgb(194, 196, 199);
   --shape-left: rgb(240, 240, 240);
   --link-blue: rgb(57, 120, 245);
   --header-color: rgb(0, 0, 0);
@@ -62,4 +62,17 @@ a {
   text-align: center;
   color: #fff;
   border-radius: var(--size-30);
+}
+
+.sketch-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--size-70);
+  height: 25px;
+  border: 1px solid transparent;
+  border-radius: var(--size-20);
+  background-color: var(--link-alt);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
