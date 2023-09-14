@@ -310,6 +310,10 @@
   font-weight: 500;
 }
 
+.key-cards:hover {
+  transform: scale(1.1);
+}
+
 .premium-wrapper {
   display: flex;
   align-items: center;
@@ -419,6 +423,10 @@
   font-family: "Roboto", sans-serif;
   font-size: var(--size-20);
   margin: var(--size-30) var(--size-80);
+}
+
+.executive {
+  padding: var(--size-40);
 }
 
 .executive-container {
