@@ -509,7 +509,7 @@
 }
 
 .grid-card h4 {
-  font-size: var(--size-50);
+  font-size: var(--size-70);
   font-weight: 400;
 }
 
@@ -517,13 +517,219 @@
   content: "/ mo";
   font-size: var(--size-30);
   color: var(--para-color);
+  padding: var(--size-10);
+}
+
+.grid-card hr {
+  margin: var(--size-50) 5px;
 }
 
 .grid-card p {
-  font-size: var(--size-30);
+  font-size: 25px;
+  line-height: 1.6;
+  word-spacing: 2px;
+  margin-bottom: var(--size-90);
+}
+
+.grid-card .play-btn-alt {
+  width: 12.5rem;
+  height: var(--size-60);
+}
+
+.grid-card h5 {
+  margin: var(--size-10);
+  font-size: var(--size-20);
+  font-weight: 400;
+  color: var(--para-color);
 }
 
 .grid-item img {
   width: var(--size-80);
   height: var(--size-80);
+}
+
+.grid-item h4 {
+  margin: 30px 0;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.grid-item p {
+  font-size: 20px;
+  font-weight: 400;
+  word-spacing: 5px;
+  word-wrap: break-word;
+}
+
+.hire-us {
+  width: 100%;
+  margin-top: var(--size-90);
+  padding: var(--size-40);
+  display: flex;
+  justify-content: space-between;
+  gap: var(--size-30);
+  background-color: rgb(33, 49, 85);
+  background-image: url(./saas-project-assets/abstract/hire-us-transparent-pattern-bg.svg);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  padding-left: var(--size-50);
+  /* justify-content: center; */
+}
+
+.left h2 {
+  margin-top: var(--size-100);
+  margin-bottom: var(--size-30);
+  font-size: var(--size-50);
+  font-weight: 400;
+  color: #fff;
+}
+
+.left p {
+  font-size: 25px;
+}
+
+.white-line {
+  width: 300px;
+  height: 2px;
+  margin: 40px 0;
+  background-color: #fff;
+}
+
+.left h3 {
+  font-size: 25px;
+  font-weight: 300;
+  font-style: italic;
+  color: #fff;
+}
+
+.left h4 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.left h5 {
+  font-size: var(--size-20);
+  color: var(--para-color);
+  font-weight: 400;
+}
+
+.hire-us-img {
+  margin-top: var(--size-40);
+  display: flex;
+  align-items: center;
+}
+
+.hire-us-img img {
+  width: var(--size-60);
+  height: var(--size-60);
+  border: 2px solid transparent;
+  border-radius: 50%;
+  padding: var(--size-20);
+}
+
+.hire-us-img img:nth-child(3) {
+  width: var(--size-80);
+  height: var(--size-80);
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.right {
+  width: 40%;
+  height: 700px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: var(--size-20);
+}
+
+form {
+  padding: var(--size-30);
+  /* margin: var(--size-20); */
+}
+
+.row {
+  display: flex;
+  gap: var(--size-20);
+  padding: var(--size-10);
+}
+
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.border {
+  width: 50%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #dddd;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.border-alt {
+  width: 100%;
+  border: 1px solid #dddd;
+  border-radius: 10px;
+  padding: 13px;
+}
+
+textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 2px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  word-spacing: 3px;
+}
+
+.terms {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+input.checkbox {
+  width: var(--size-50);
+  height: var(--size-50);
+  border: 1px solid #dddd;
+  border-radius: 2px;
+  outline: none;
+}
+
+.privacy-links {
+  display: flex;
+  margin-top: -2.5rem;
+}
+
+.privacy {
+  margin: var(--size-20);
+  color: var(--para-color);
+  border-bottom: 2px dotted var(--para-color);
+  font-family: "Roboto", sans-serif;
+}
+
+.privacy-alt {
+  margin: var(--size-20);
+  padding: 0 10px;
+  color: var(--link-blue);
+  border-bottom: 2px dotted var(--link-blue);
+  font-family: "Roboto", sans-serif;
+}
+
+.get-started {
+  width: 200px;
+  height: var(--size-60);
+  margin-top: var(--size-20);
 }
