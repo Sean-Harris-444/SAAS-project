@@ -3,17 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>SAAS Project</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="default.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="responsive.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Cantarell&family=Hind:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Tillana:wght@400;700&family=Titillium+Web&display=swap"
       rel="stylesheet" />
@@ -25,8 +21,12 @@
       referrerpolicy="no-referrer" />
   </head>
   <body>
-    <header>
-      <div class="header-background-container">
+    <header class="container">
+      <div class="header-background">
+        <div class="header-left"></div>
+        <div class="header-right"></div>
+      </div>
+      <div class="header-content">
         <div class="top-nav">
           <div class="logo">
             <img
@@ -34,12 +34,12 @@
               alt="FrontLogo" />
           </div>
 
-          <nav>
+          <nav id="topNav">
             <button
               class="navbar-toggler"
               aria-expanded="false"
               aria-controls="navbarDropdown">
-              <span>&#9776;</span>
+              <span><i class="fa-solid fa-bars"></i></span>
             </button>
             <ul>
               <li>
@@ -80,7 +80,7 @@
             </div>
           </div>
           <div class="logo-bubbles">
-            <div class="logo-line-1">
+            <div class="logo-line">
               <div class="logo-1">
                 <img
                   src="./saas-project-assets/logo_icons/google.png"
@@ -97,7 +97,7 @@
                   alt="asana" />
               </div>
             </div>
-            <div class="logo-line-2">
+            <div class="logo-line">
               <div class="logo-4">
                 <img
                   src="./saas-project-assets/logo_icons/paypal.jpg"
@@ -109,7 +109,7 @@
                   alt="Weave" />
               </div>
             </div>
-            <div class="logo-line-3">
+            <div class="logo-line">
               <div class="logo-6">
                 <img
                   src="./saas-project-assets/logo_icons/google-A.png"
@@ -123,11 +123,9 @@
             </div>
           </div>
         </div>
-        <div class="header-left"></div>
-        <div class="header-right"></div>
       </div>
+      <div class="separator"></div>
     </header>
-    <div class="separator"></div>
 
     <section class="key-benefits">
       <div class="card-header">
@@ -308,9 +306,11 @@
             guaranteed money back. <br />
             No questions asked
           </p>
-          <a href="#" class="btn-primary play-btn-alt">
-            <i class="fa-solid fa-circle-play"></i>Play Video
-          </a>
+          <div class="play-btn-wrapper">
+            <a href="#" class="btn-primary play-btn-alt">
+              <i class="fa-solid fa-circle-play"></i>Play Video
+            </a>
+          </div>
           <h5>No credit card required</h5>
         </div>
         <div class="grid-item">
@@ -430,7 +430,7 @@
                 placeholder="Tell us more about your project, needs, and timeline, please..."></textarea>
             </div>
           </div>
-          <div class="row">
+          <div class="row row-mobile">
             <input type="checkbox" class="checkbox border-alt" />
             <label for="updates" class="terms"
               >Yes, I'd like to receive occasional marketing emails form Front.
@@ -508,26 +508,30 @@
           Privacy & Policy > <span class="blue">Terms</span> > Site Map
         </div>
         <div class="privacy-right">
-          <div class="icon-container">
-            <i class="fa-brands fa-facebook-f"></i>
+          <div class="privacy-top">
+            <div class="icon-container">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="icon-container">
+              <i class="fa-brands fa-google"></i>
+            </div>
+            <div class="icon-container">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="icon-container">
+              <i class="fa-brands fa-github"></i>
+            </div>
           </div>
-          <div class="icon-container">
-            <i class="fa-brands fa-google"></i>
+          <div class="privacy-bottom">
+            <form action="">
+              <select name="country 2" id="">
+                <option value="USA">USA</option>
+                <option value="Spain">Spain</option>
+                <option value="Australia">Australia</option>
+                <option value="Germany">Germany</option>
+              </select>
+            </form>
           </div>
-          <div class="icon-container">
-            <i class="fa-brands fa-twitter"></i>
-          </div>
-          <div class="icon-container">
-            <i class="fa-brands fa-github"></i>
-          </div>
-          <form action="">
-            <select name="country 2" id="">
-              <option value="USA">USA</option>
-              <option value="Spain">Spain</option>
-              <option value="Australia">Australia</option>
-              <option value="Germany">Germany</option>
-            </select>
-          </form>
         </div>
       </div>
       <div class="footer-bottom">
